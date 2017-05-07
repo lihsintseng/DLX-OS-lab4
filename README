@@ -1,0 +1,20 @@
+How to build my solution:
+-- Execute make in corresponding directories.
+   Problem 1-6:
+      make run in flat/os/
+      creating file system:    make & make run in flat/apps/fdisk
+      testing problem 4 & 6:   make & make run in flat/apps/ostests
+      format file system:      make & make run in flat/apps/fdisk
+      testing multiprocesses:  make & make run in flat/apps/example
+
+   Problem 7:
+      make run in multilevel/os/
+      creating file system:    make & make run in multilevel/apps/fdisk
+      testing functions:       make & make run in multilevel/apps/ostests
+      testing multiprocesses:  make & make run in multilevel/apps/example
+
+Anything Unusual about my solution that the TA should know.
+-- None
+
+External sources
+-- None

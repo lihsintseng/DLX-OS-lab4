@@ -1,0 +1,3917 @@
+cd ../../bin; dlxsim -x os.dlx.obj -a -D F -u ostests.dlx.obj; ee469_fixterminal
+Stack=0x1fffc4, pc starting at 0x19bb4
+Got 4 arguments.
+Available memory: 0x329c0 -> 0x200000.
+Argument count is 4.
+Argument 0 is -D.
+Argument 1 is F.
+Argument 2 is -u.
+Argument 3 is ostests.dlx.obj.
+		 This is the 0 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 1 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 2 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 3 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 4 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 5 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 6 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 7 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 8 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 9 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 10 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 11 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 12 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 13 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 14 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 15 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 16 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 17 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 18 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 19 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 20 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 21 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 22 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 23 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 24 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 25 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 26 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 27 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 28 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 29 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 30 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 31 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 32 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 33 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 34 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 35 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 36 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 37 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 38 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 39 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 40 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 41 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 42 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 43 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 44 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 45 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 46 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 47 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 48 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 49 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 50 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 51 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 52 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 53 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 54 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 55 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 56 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 57 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 58 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 59 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 60 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 61 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 62 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 63 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 64 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 65 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 66 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 67 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 68 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 69 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 70 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 71 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 72 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 73 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 74 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 75 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 76 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 77 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 78 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 79 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 80 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 81 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 82 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 83 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 84 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 85 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 86 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 87 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 88 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 89 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 90 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 91 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 92 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 93 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 94 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 95 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 96 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 97 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 98 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+		 This is the 99 time!!! 
+TrapFileMkDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileMkDirHandler: just parsed permissions (56) from trapArgs
+TrapFileMkDirHandler: calling MkDir("Test1", "56")
+TrapFileOpenHandler: just parsed filename (/Test1/test.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (rw) from trapArgs
+TrapFileOpenHandler: calling FileOpen("/Test1/test.txt", "rw")
+Write 4095 bytes into the file
+Write fid: 2
+Test read directory!!!
+
+TrapFileOpenHandler: just parsed filename (Test1) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("Test1", "r")
+Read fid: 1
+Read 76 bytes from the file
+test.txt The inode is:0002
+End read directory!!
+
+Test Link!!!
+
+TrapFileMkDirHandler: just parsed  (Test1/test.txt) from trapArgs
+TrapFileMkDirHandler: just parsed  (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileOpenHandler: just parsed filename (test_link.txt) from trapArgs
+TrapFileOpenHandler: just parsed mode (r) from trapArgs
+TrapFileOpenHandler: calling FileOpen("test_link.txt", "r")
+Read fid: 2
+Read 10 bytes from the file
+61616161616161616161
+Read 10 bytes from the file
+61616161616161616161
+TrapDeleteCloseHandler: just parsed filename (test_link.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapDeleteCloseHandler: just parsed filename (Test1/test.txt) from trapArgs
+TraInodeFromPath: File exists
+TrapFileRmDirHandler: just parsed filename (Test1) from trapArgs
+TrapFileRmDirHandler: calling RmDir("Test1")
+TraInodeFromPath: File exists
+No runnable processes - exiting!
+GracefulExit: closing filesystem and exiting simulator
+inodes[1] type: 2
+Exiting at program request.
+Instructions executed: 172275593
+Time simulated: 172.276 secs
+Real time elapsed: 9.897 secs
+Execution rate: 17.41M simulated instructions per real second.

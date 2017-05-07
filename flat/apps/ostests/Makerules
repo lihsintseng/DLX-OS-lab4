@@ -1,0 +1,18 @@
+# General rules for building one application out of many
+# source files.  This file is only intended to be included
+# in the Makefiles of the subdirectories of the top-level
+# app directory
+
+HDRS=usertraps.h fdisk.h
+FINALHDRS+=../include/ostests.h
+FINALHDRS+=../../fdisk/include/fdisk.h
+
+APPROOT=../..
+INCDIR+=-I../include
+INCDIR+=-I../../fdisk/include
+INCDIR+=-I../../fdisk/fdisk
+
+top: default
+
+run:
+	cd ../; make run
